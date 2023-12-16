@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p class="form-title">Please Register the following form</p>
+    <form action="signup.php">
+      <input
+        type="text"
+        name="firstname"
+        placeholder="Enter firstname"
+        required="required"
+      />
+      <input
+        type="text"
+        name="lastname"
+        placeholder="Enter lastname"
+        required="required"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter Email Address"
+        required="required"
+      />
+      <input
+        type="password"
+        name="password"
+        placeholder="Enter password"
+        required="required"
+      />
+      <input
+        type="password"
+        name="confirm_password"
+        placeholder="confirm password"
+        required="required"
+      />
+      <button type="submit" name="signup">Sign up</button><br />
+
+      <div class="form_footer">
+        have already account <a href="signin.html">Login</a>
+        <a href="privacy.html">Privacy and Terms</a>
+      </div>
+    </form>
+  </body>
+</html>

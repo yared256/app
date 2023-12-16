@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    margin-top: 70px;
+    margin-left: 31%;
+    color: dodgerblue; 
+    font-size: larger; 
+    font-weight: bold;
+}
+form{
+    margin-left: 30%;
+    border: solid 1px tomato;
+    border-radius: 8px;
+    width: 30%;
+    height: 400px;
+    background-color: lightgray;
+    color: darkslateblue;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+input{
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    width: 90%;
+    border: solid 1px aquamarine;
+    border-radius: 6px;
+    color: darkblue;
+}
+button{
+    height: 35px;
+    width: 80%;
+    border: solid 1px lightblue;
+    border-radius: 25px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 3px;
+    color: orangered;
+    margin-left: 20px;
+
+}
+button:hover{
+    background-color: lightblue;
+}
+caption{
+    margin-right: 200px; 
+}
+a{
+    margin-left: 5px;
+}
+.form_footer{
+    margin-left: 20px;
+}
